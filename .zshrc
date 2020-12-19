@@ -108,3 +108,4 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Hitory options
 setopt HIST_IGNORE_ALL_DUPS
+#############TEST
