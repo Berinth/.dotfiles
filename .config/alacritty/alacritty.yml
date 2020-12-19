@@ -1,0 +1,46 @@
+colors:
+  primary:
+    background: '#333333'
+    foreground: '#f2f2f2'
+  normal:
+    black: '#333333'
+    red: '#cc0000'
+    green: '#4e9a06'
+    yellow: '#c4a000'
+    blue: '#3465a4'
+    magenta: '#75507b'
+    cyan: '#06989a'
+    white: '#d3d7cf'
+  bright:
+    black: '#88807c'
+    red: '#f15d22'
+    green: '#73c48f'
+    yellow: '#ffce51'
+    blue: '#48b9c7'
+    magenta: '#ad7fa8'
+    cyan: '#34e2e2'
+    white: '#eeeeec'
+  cursor:
+    text: '#333333'
+    cursor: '#f6f6f6'
+
+    # Font configuration (changes require restart)
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: Fira Mono for Powerline
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+  # The bold font face
+  bold:
+    family: Fira Mono for Powerline
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    family: Fira Mono for Powerline
+    # Style can be specified to pick a specific face.
+    style: Italic
+  size: 12.0
