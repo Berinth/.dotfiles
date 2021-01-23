@@ -67,7 +67,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode)
+plugins=(git vi-mode fzf)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,5 +109,3 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # Hitory options
 setopt HIST_IGNORE_ALL_DUPS
 #############TEST
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
