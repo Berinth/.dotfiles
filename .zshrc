@@ -105,6 +105,7 @@ alias nnn='nnn -e'
 alias reddit='tuir'
 alias overandout="gnome-session-quit --force"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias vimwiki='/usr/bin/git --git-dir=$HOME/vimwiki/'
 
 # Hitory options
 setopt HIST_IGNORE_ALL_DUPS
