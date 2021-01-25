@@ -102,7 +102,7 @@ export PATH=$PATH:/home/ben/bin:/home/ben/.local/bin
 alias mv='mv -i'
 alias config='/usr/bin/git --git-dir=/home/ben/.cfg/ --work-tree=/home/ben'
 alias nnn='nnn -e'
-alias reddit='tuir'
+alias reddit='ttrv'
 alias overandout="gnome-session-quit --force"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
