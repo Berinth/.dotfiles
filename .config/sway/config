@@ -43,7 +43,10 @@ input "5426:132:Razer_Razer_DeathAdder_V2" {
 }
 
 seat * xcursor_theme "Pop" 
-exec_always gsettings set org.gnome.desktop.interface cursor-theme "Pop"
+exec_always import-gsettings \
+                gtk-theme:Pop-dark \
+                icon-theme:Pop \
+                cursor-theme:Pop 
 seat * hide_cursor 8000
 
 
