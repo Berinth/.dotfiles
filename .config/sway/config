@@ -42,7 +42,10 @@ input "5426:132:Razer_Razer_DeathAdder_V2" {
     accel_profile flat
 }
 
+seat * xcursor_theme "Pop" 
+exec_always gsettings set org.gnome.desktop.interface cursor-theme "Pop"
 seat * hide_cursor 8000
+
 
 ### Key bindings
 #
