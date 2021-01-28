@@ -43,10 +43,10 @@ input "5426:132:Razer_Razer_DeathAdder_V2" {
 }
 
 seat * xcursor_theme "Pop" 
-exec_always import-gsettings \
-                gtk-theme:Pop-dark \
-                icon-theme:Pop \
-                cursor-theme:Pop 
+exec_always ~/.config/sway/import-gsettings \
+                gtk-theme:gtk-them-name \
+                icon-theme:gtk-icon-theme-name \
+                cursor-theme:gtk-cursor-theme-name
 seat * hide_cursor 8000
 
 
