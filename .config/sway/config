@@ -233,6 +233,8 @@ bar {
     }
 }
 
+titlebar_border_thickness 1
+titlebar_padding 5 1
 #
 # auto-tiling
 #
