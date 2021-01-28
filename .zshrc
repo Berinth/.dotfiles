@@ -105,6 +105,7 @@ alias nnn='nnn -e'
 alias reddit='ttrv'
 alias overandout="gnome-session-quit --force"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles-push='dotfiles add -u && dotfiles commit && dotfiles push'
 
 # Hitory options
 setopt HIST_IGNORE_ALL_DUPS
