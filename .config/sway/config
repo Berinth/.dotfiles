@@ -234,5 +234,6 @@ exec mako
 #
 font pango:FiraSans SemiBold 10
 
+exec /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
 include ~/.config/sway/local.conf
 include /etc/sway/config.d/*
