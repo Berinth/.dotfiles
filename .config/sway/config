@@ -238,4 +238,5 @@ exec /usr/bin/flatpak run com.transmissionbt.Transmission -m
 exec caprine
 exec steam -silent %U
 
+include ~/.config/sway/local.conf
 include /etc/sway/config.d/*
