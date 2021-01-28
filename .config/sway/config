@@ -38,10 +38,11 @@ output DP-1 adaptive_sync on max_render_time 1
 #
 # Example configuration:
 #
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
-#          before-sleep 'swaylock -f -c 000000'
+set $lockman exec bash ~/.config/sway/lockman.sh
+bindsym $mod+Escape exec $lockman
+exec swayidle -w \
+          timeout 300 'swaylock -f -c 000000' \
+          timeout 310 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -70,6 +71,7 @@ seat * hide_cursor 8000
 #
 # Basics:
 #
+
     # Start a terminal
     bindsym $mod+t exec $term
 
@@ -249,5 +251,9 @@ font pango:FiraSans SemiBold 10
 # Auto start
 # 
 exec /usr/lib/kdeconnectd
+exec /usr/bin/flatpak run com.discordapp.Discord --start-minimized
+exec /usr/bin/flatpak run com.transmissionbt.Transmission -m
+exec caprine
+exec steam -silent %U
 
 include /etc/sway/config.d/*
