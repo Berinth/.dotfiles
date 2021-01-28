@@ -194,6 +194,9 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+bindsym $mod+p exec makoctl dismiss
+bindsym $mod+o exec makoctl invoke
+
 input "type:keyboard" {
 xkb_options ctrl:nocaps
 }
