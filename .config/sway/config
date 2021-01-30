@@ -231,6 +231,7 @@ titlebar_padding 5 1
 # from: https://github.com/nwg-piotr/autotiling
 
 exec mako
+exec_always --no-startup-id flash_window
 #
 # Fonts
 #
