@@ -208,7 +208,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 bindsym $mod+period exec makoctl dismiss
-bindsym $mod+comma exec makoctl invoke
+bindsym $mod+comma exec makoctl invoke && makoctl dismiss
 
 input "type:keyboard" {
 xkb_options ctrl:nocaps
@@ -218,16 +218,6 @@ xkb_options ctrl:nocaps
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
-#    position top
-
-    # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-#    status_command while date +'%Y-%m-%d %H:%M:%S %p'; do sleep 1; done
-
-#    colors {
-#        statusline #ffffff
-#        background #323232
-#        inactive_workspace #32323200 #32323200 #5c5c5c
     swaybar_command waybar
     }
 }
