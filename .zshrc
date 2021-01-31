@@ -86,6 +86,12 @@ export PATH=$PATH:/home/ben/bin:/home/ben/.local/bin:/home/ben/.local/share/flat
 # else
 #   export EDITOR='mvim'
 # fi
+#
+#
+# log directly in to swaywm
+if [ "$(tty)" = "/dev/tty/tty2" ]; then
+    exec sway
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
