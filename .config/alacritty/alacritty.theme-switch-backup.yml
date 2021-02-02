@@ -1,9 +1,9 @@
 colors:
   primary:
-    background: '#272727'
-    foreground: '#cccccc'
+    background: '#300a24'
+    foreground: '#eeeeec'
   normal:
-    black: '#272727'
+    black: '#2e3436'
     red: '#cc0000'
     green: '#4e9a06'
     yellow: '#c4a000'
@@ -21,5 +21,16 @@ colors:
     cyan: '#34e2e2'
     white: '#eeeeec'
   cursor:
-    text: '#1d1f21'
-    cursor: '#ffffff'
+    text: '#333333'
+    cursor: '#f6f6f6'
+font:
+  normal:
+    family: Fira Mono for Powerline
+    style: Regular
+  bold:
+    family: Fira Mono for Powerline
+    style: Bold
+  italic:
+    family: Fira Mono for Powerline
+    style: Italic
+  size: 12
