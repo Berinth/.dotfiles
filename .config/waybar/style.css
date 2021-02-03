@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0;
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "FontAwesome 5 Free Solid", Roboto, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif, "Font Awesome 5 Free";
     font-size: 13px;
     min-height: 0;
 }
