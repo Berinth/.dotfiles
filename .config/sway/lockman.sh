@@ -4,20 +4,6 @@ swayidle \
     timeout 5 'swaymsg "output * dpms off"' \
     resume 'swaymsg "output * dpms on"' &
 # Locks the screen immediately
-swaylock \
-	--screenshots \
-	--clock \
-	--indicator \
-	--indicator-radius 100 \
-	--indicator-thickness 7 \
-	--effect-blur 7x5 \
-	--effect-vignette 0.5:0.5 \
-    --effect-greyscale \
-	--ring-color 64727d \
-	--key-hl-color 285577 \
-	--line-color 00000000 \
-	--inside-color 00000088 \
-	--separator-color 00000000 \
-	--fade-in 0.2
+swaylock -c 000000 &
 # Kills last background task so idle timer doesn't keep running
 kill %%

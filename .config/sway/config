@@ -231,7 +231,6 @@ titlebar_padding 5 1
 
 
 exec mako
-exec_always --no-startup-id flash_window
 #
 # Fonts
 #
