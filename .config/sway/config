@@ -253,3 +253,5 @@ include /etc/sway/config.d/*
 #
 # from: https://github.com/nwg-piotr/autotiling
 exec autotiling
+exec "syncthing -no-browser"
+exec keepassxc
