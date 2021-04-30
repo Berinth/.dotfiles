@@ -1,0 +1,6 @@
+#!/bin/bash
+####### For easy undervolting of all pstates
+
+sudo amdctl -p0 -v70
+sudo amdctl -p1 -v115
+sudo amdctl -p2 -v124
