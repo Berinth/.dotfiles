@@ -199,10 +199,10 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFALT_SINK@ +10
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFALT_SINK@ -10
-bindsym XF86AudioMute exec pactl set-sink-mut @DEFALT_SINK@ toggle
-bindsym XF86AudioMicMute exec set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86AudioRaiseVolume exec pamixer -i 5
+bindsym XF86AudioLowerVolume exec pamixer -d 5
+bindsym XF86AudioMute exec pamixer -t
+bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym $mod+Alt+m exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
