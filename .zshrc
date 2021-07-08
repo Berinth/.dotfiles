@@ -81,6 +81,7 @@ export PATH=$PATH:/home/ben/bin:/home/ben/.local/bin:/home/ben/.local/share/flat
 # export LANG=en_US.UTF-8
 export EDITOR='nvim'
 export MANGOHUD=1
+export XDG_CURRENT_DESKTOP=sway
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
