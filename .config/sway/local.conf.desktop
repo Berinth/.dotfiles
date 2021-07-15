@@ -19,6 +19,5 @@ exec swayidle -w \
 # 
 exec /usr/lib/kdeconnectd
 exec /usr/bin/flatpak run com.discordapp.Discord --start-minimized
-exec /usr/bin/flatpak run com.transmissionbt.Transmission -m
 exec steam -silent %U
 exec 'sleep 10 && caprine'
