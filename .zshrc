@@ -82,6 +82,7 @@ export PATH=$PATH:/home/ben/bin:/home/ben/.local/bin:/home/ben/.local/share/flat
 export EDITOR='nvim'
 export MANGOHUD=1
 export XDG_CURRENT_DESKTOP=sway
+export QT_QPA_PLATFORMTHEME=gnome
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -116,6 +117,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dotfiles-push='dotfiles add -u && dotfiles commit && dotfiles push'
 alias vim=nvim
 alias flatpak='flatpak --user'
+alias roll='roll -v'
 
 # Hitory options
 setopt HIST_IGNORE_ALL_DUPS
