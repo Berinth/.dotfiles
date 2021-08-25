@@ -243,6 +243,7 @@ for_window [app_id="firefox" title="^Picture-in-Picture$"] \
 for_window [class="feh"] \
     floating enable
 
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
 include ~/.config/sway/local.conf
 include /etc/sway/config.d/*

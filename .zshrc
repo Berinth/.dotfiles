@@ -118,6 +118,7 @@ alias dotfiles-push='dotfiles add -u && dotfiles commit && dotfiles push'
 alias vim=nvim
 alias flatpak='flatpak --user'
 alias roll='roll -v'
+alias screenshot='grimshot'
 
 # Hitory options
 setopt HIST_IGNORE_ALL_DUPS
