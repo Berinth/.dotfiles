@@ -211,8 +211,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86Favorites exec swaymsg input "2:14:ETPS/2_Elantech_Touchpad" events toggle
 
-bindsym $mod+period exec makoctl dismiss
-bindsym $mod+comma exec makoctl invoke && makoctl dismiss
+bindsym $mod+period exec swaync-client -t -sw
 
 input "type:keyboard" {
 xkb_options ctrl:nocaps
@@ -251,6 +250,7 @@ include /etc/sway/config.d/*
 # auto-tiling
 #
 # from: https://github.com/nwg-piotr/autotiling
+exec swaync
 exec autotiling
 exec syncthing --no-browser
 exec keepassxc

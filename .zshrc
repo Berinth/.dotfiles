@@ -73,7 +73,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=$PATH:/home/ben/bin:/home/ben/.local/bin:/home/ben/.local/share/flatpak/exports/bin:var/lib/flatpak/exports/bin
+export PATH=$PATH:/home/ben/bin:/home/ben/.local/bin:/home/ben/.local/share/flatpak/exports/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
