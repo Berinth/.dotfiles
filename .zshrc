@@ -79,7 +79,7 @@ export PATH=$PATH:/home/ben/bin:/home/ben/.local/bin:/home/ben/.local/share/flat
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-export EDITOR='nvim'
+export EDITOR='helix'
 export MANGOHUD=1
 export XDG_CURRENT_DESKTOP=sway
 export QT_QPA_PLATFORMTHEME=gnome
@@ -115,7 +115,7 @@ alias reddit='ttrv'
 alias overandout="gnome-session-quit --force"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dotfiles-push='dotfiles add -u && dotfiles commit && dotfiles push'
-alias vim=nvim
+alias vim=helix
 alias flatpak='flatpak --user'
 alias roll='roll -v'
 alias screenshot='grimshot'
